@@ -1,0 +1,32 @@
+[
+	{
+		"tittle": "banana",
+		"price": "5",
+		"stock": "5",
+		"id": 3
+	},
+	{
+		"tittle": "durazno",
+		"price": "50",
+		"stock": "300",
+		"id": 6
+	},
+	{
+		"tittle": "kiwi",
+		"price": "60",
+		"stock": "800",
+		"id": 7
+	},
+	{
+		"tittle": "nuez",
+		"price": "55",
+		"stock": "555",
+		"id": 8
+	},
+	{
+		"tittle": "ff",
+		"price": "1",
+		"stock": "1",
+		"id": 9
+	}
+]

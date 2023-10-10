@@ -1,0 +1,30 @@
+<h1>Formulario para Agregar Producto</h1>
+
+<form action="/add" method="post" id="agregarForm">
+    <label for="tittle">tittle:</label>
+    <textarea id="tittle" name="tittle" required></textarea><br>
+
+    <label for="price">price</label>
+    <textarea id="price" name="price" required></textarea><br>
+
+    <label for="stock">price</label>
+    <textarea id="stock" name="stock" required></textarea><br>
+    
+    <button type="submit">Agregar Producto</button>
+</form>
+
+<h1>Formulario para Eliminar Producto por ID</h1>
+<form action="/" method="post" id="eliminarForm">
+    <label for="productId">ID del Producto a Eliminar:</label>
+    <input type="text" id="productId" name="productId" required>
+    <button type="submit">Eliminar Producto</button>
+</form>
+
+<div id="contenedorDeProductos">
+
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+
+<!--ES EL INDEX.JS DENTRO DE LA CARPETA PUBLIC-->
+<script src="/js/index.js"></script>
